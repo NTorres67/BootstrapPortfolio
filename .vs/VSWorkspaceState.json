@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BootstrapPortfolio",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\content",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\content\\net45",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\content\\net46",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\lib",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\tools",
+    "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\tools\\net45",
+    "\\packages\\Microsoft.Net.Compilers.2.1.0",
+    "\\packages\\Microsoft.Net.Compilers.2.1.0\\build",
+    "\\packages\\Microsoft.Net.Compilers.2.1.0\\tools"
+  ],
+  "PreviewInSolutionExplorer": false
+}

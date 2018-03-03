@@ -1,0 +1,90 @@
+﻿/* navbar*/
+.bg-dark{
+    background-color:#000000!important;
+}
+
+a.nav-link{
+    color:#ff0066!important;
+}
+button.navbar-toggler {
+    color: #ff0066;
+}
+
+/* name */
+h1.name {
+    font-size: 7vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff0066;
+    text-align: center;
+    padding-top:5%;
+}
+
+h1.name {
+    animation-duration: 3s;
+    animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* position*/
+h3.position {
+    font-size: 4vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom:30px;
+}
+
+h3.position {
+    animation-duration: 3s;
+    animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* home page links*/
+p.home-links{
+    font-size: 2vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    text-align:center;
+}
+
+a{
+    color:#ff0066;
+}
+
+/* My Journey Picture*/
+div.journey {
+    display:flex;
+    width:100%;
+    height:auto;
+    background: url('images/SleepingHonu1400.jpg') no-repeat center center;
+    height: 600px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
