@@ -80,11 +80,10 @@ a{
 
 /* My Journey Picture*/
 div.journey {
-    display:flex;
-    width:100%;
-    height:auto;
-    background: url('images/SleepingHonu1400.jpg') no-repeat center center;
-    height: 600px;
-    margin-top:5%;
-    margin-bottom:5%;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: url('images/SleepingHonu675V.jpg') no-repeat center center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
