@@ -78,12 +78,50 @@ a{
     color:#ff0066;
 }
 
-/* My Journey Picture*/
-div.journey {
+/* My Journey & Picture*/
+
+div.row.journey {
+    background-image: url('images/rsz_sleepinghonu1400.jpg');
+    background-position: center center;
+    /*background-repeat:no-repeat;*/
+    background-size:contain;
+    margin:7%;
+}
+
+div.journey-transbox {
     display: flex;
-    width: 100%;
-    height: auto;
-    background: url('images/SleepingHonu675V.jpg') no-repeat center center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    flex-direction: column;
+    margin: 40px;
+    background-color: #f2f2f2;
+    border: 2px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /*transform IE8 and earlier*/
+}
+
+#journey-header {
+    /*background-color: rgba(89, 89, 89, 0.5);*/
+    font-size: 7vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight:bolder;
+    color: #000000;
+    text-align: center;
+}
+
+#journey-body {
+    /*background-color: rgba(89, 89, 89, 0.5);*/
+    font-size: 1.5vw;
+    color: #000000;
+    font-weight:bolder;
+    text-align: center;
+}
+
+h1.subheader {
+    font-size: 5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #ff0066;
+    text-align: center;
+}
 }
