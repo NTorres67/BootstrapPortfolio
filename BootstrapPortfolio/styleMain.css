@@ -85,6 +85,7 @@ div.row.journey {
     background-position: center center;
     background-size:contain;
     margin:7%;
+    padding-top: 10px;
 }
 
 div.journey-transbox {
@@ -171,8 +172,8 @@ a.github-link.w-inline-block {
     color: white;
 }
 
-div.row.empty{
-    height:25px;
+div.row.spacer{
+    height:30px;
 }
 
 
@@ -195,3 +196,17 @@ div.row.empty{
     height: 100%;
 }
 
+div.row.contact-links{
+    justify-content: center;
+    padding-left: 430px;
+}
+
+div.col-4.contact{
+    height:30px;
+    justify-content: center;
+    align-content:center;
+}
+
+::before{
+    color:#ffffff;
+}
